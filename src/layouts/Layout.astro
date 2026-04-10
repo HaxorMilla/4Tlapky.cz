@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { ClientRouter } from "astro:transitions";
+// ClientRouter jsme odstranili, aby se styly při přechodu nekazily
 import Header from "~/components/Header.astro";
 import Footer from "~/components/Footer.astro";
 const { pageTitle, title, description } = Astro.props;
@@ -38,9 +38,9 @@ import { siteName, siteLang, themeColor } from "~/data/config";
 		<meta name="twitter:url" content={Astro.url} />
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
-		<!-- <meta name="twitter:image" content={`${baseUrl}/images/og-image.jpg`} /> -->
 		<title>{pageTitle}</title>
-		<ClientRouter />
+		
+		{ /* Zde byla komponenta ClientRouter, kterou jsme smazali */ }
 	</head>
 	<body>
 		<Header />
