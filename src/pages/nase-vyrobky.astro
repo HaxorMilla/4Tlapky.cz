@@ -54,18 +54,43 @@ const produkty = [
 						Všechny produkty jsou k dostání u nás v prodejně.
 					</p>
 
-					<div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-left max-w-4xl mx-auto bg-fuchsia-50 p-8 rounded-3xl border border-fuchsia-100">
-						<ul class="space-y-2 text-gray-700">
-							<li class="flex items-center gap-2">✅ <span class="font-bold">65 %</span> živočišných bílkovin</li>
-							<li class="flex items-center gap-2">✅ Bez obilovin <span class="italic">(grain-free)</span></li>
-							<li class="flex items-center gap-2">✅ Maso z volného chovu a rybářství</li>
-							<li class="flex items-center gap-2">✅ Technologie <span class="font-bold">Freshtrusion (82 °C)</span></li>
+					{/* OPRAVA: Změněno md: na lg: aby se sloupce na mobilu nehádaly */}
+					<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 text-left max-w-4xl mx-auto bg-fuchsia-50 p-6 md:p-8 rounded-3xl border border-fuchsia-100">
+						<ul class="space-y-3 text-gray-700">
+							<li class="flex items-start gap-3">
+								<span class="shrink-0 text-xl">✅</span> 
+								<span><span class="font-bold">65 %</span> živočišných bílkovin</span>
+							</li>
+							<li class="flex items-start gap-3">
+								<span class="shrink-0 text-xl">✅</span> 
+								<span>Bez obilovin <span class="italic text-sm">(grain-free)</span></span>
+							</li>
+							<li class="flex items-start gap-3">
+								<span class="shrink-0 text-xl">✅</span> 
+								<span>Maso z volného chovu a rybářství</span>
+							</li>
+							<li class="flex items-start gap-3">
+								<span class="shrink-0 text-xl">✅</span> 
+								<span>Technologie <span class="font-bold">Freshtrusion (82 °C)</span></span>
+							</li>
 						</ul>
-						<ul class="space-y-2 text-gray-700">
-							<li class="flex items-center gap-2">🦴 Obohaceno o <span class="font-bold">Superfoods</span> směs</li>
-							<li class="flex items-center gap-2">🌿 Antioxidanty a Omega 3</li>
-							<li class="flex items-center gap-2">🍎 Vitamíny (A, B3, B9, C, K)</li>
-							<li class="flex items-center gap-2">💪 Minerály (železo, vápník, draslík)</li>
+						<ul class="space-y-3 text-gray-700">
+							<li class="flex items-start gap-3">
+								<span class="shrink-0 text-xl">🦴</span> 
+								<span>Obohaceno o <span class="font-bold">Superfoods</span> směs</span>
+							</li>
+							<li class="flex items-start gap-3">
+								<span class="shrink-0 text-xl">🌿</span> 
+								<span>Antioxidanty a Omega 3</span>
+							</li>
+							<li class="flex items-start gap-3">
+								<span class="shrink-0 text-xl">🍎</span> 
+								<span>Vitamíny (A, B3, B9, C, K)</span>
+							</li>
+							<li class="flex items-start gap-3">
+								<span class="shrink-0 text-xl">💪</span> 
+								<span>Minerály (železo, vápník, draslík)</span>
+							</li>
 						</ul>
 					</div>
 
@@ -89,12 +114,12 @@ const produkty = [
 							/>
 						</div>
 						
-						<div class="p-6 flex flex-col flex-grow bg-white text-center"> {/* Změněno na text-center */}
+						<div class="p-6 flex flex-col flex-grow bg-white text-center">
 							<h3 class="font-bold text-xl mb-1 text-gray-900">{produkt.jmeno}</h3>
 							{produkt.popis && <p class="text-gray-500 text-sm mb-4 italic leading-relaxed">{produkt.popis}</p>}
 							
-							<div class="flex items-center justify-center mt-auto pt-4 border-t border-gray-50"> {/* justify-center pro vycentrování */}
-								<span class="text-3xl font-extrabold text-fuchsia-600">{produkt.cena}</span> {/* Zvětšeno na text-3xl a font-extrabold */}
+							<div class="flex items-center justify-center mt-auto pt-4 border-t border-gray-50">
+								<span class="text-3xl font-extrabold text-fuchsia-600">{produkt.cena}</span>
 							</div>
 						</div>
 					</div>
