@@ -121,9 +121,10 @@ body {
 
 body {
 	@apply h-full scroll-smooth font-sans text-gray-700;
-	/* Tato úprava zesílí kočičky. Čím menší číslo místo 0.8, tím budou vidět víc! */
-	background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("/pattern.jpg");
+	background-image: url("/pattern.jpg");
 	background-repeat: repeat;
+	background-color: rgba(0, 0, 0, 0.1); /* Jemný tmavý nádech pod obrázkem */
+	background-blend-mode: multiply;       /* Tohle ty kočky "vytáhne" a ztmaví */
 }
 
 h1,
