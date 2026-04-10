@@ -44,5 +44,5 @@ export const hours = {
 	"Čtvrtek": "8:30 – 12:00 | 13:00 – 16:30",
 	"Pátek": "8:30 – 12:00 | 13:00 – 16:30",
 	"Sobota": "8:30 – 11:00",
-	"Neděle":			 "Zavřeno",
+	"Neděle":			 "Zavřeno odpočíváme 😸",
 };
