@@ -1,0 +1,53 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import Section from "~/components/Section.astro";
+import Container from "~/components/Container.astro";
+import { Picture } from "astro:assets";
+import Button from "~/components/Button.astro";
+
+// Image (kočka na pozadí)
+import CatBackground from "~/assets/images/pexels-thirdman-8942612.webp";
+---
+
+<Layout title="Domů" pageTitle="Domů" description="Vítá Vás zverimex 4Tlapky!">
+	<Section class:list={"relative min-h-svh flex items-center justify-center overflow-hidden"}>
+		
+		{ /* FOTKA KOČKY NA POZADÍ */ }
+		<Picture
+			src={CatBackground}
+			alt="Kočka na pozadí 4Tlapky"
+			class:list={"absolute inset-0 w-full h-full object-cover z-0"}
+			loading={"eager"}
+			fetchpriority={"high"}
+		/>
+		
+		{ /* Barevný přechod přes fotku (původní barvy fuchsia/teal) */ }
+		<div class="bg-gradient-to-r from-fuchsia-500/60 to-teal-500/80 absolute inset-0 z-10"></div>
+		
+		{ /* OBSAH VYCENTROVANÝ NA STŘED */ }
+		<Container class:list={"relative z-20 w-full h-full"}>
+			<div class="flex flex-col items-center justify-center h-full text-center">
+				<div class="max-w-3xl">
+					<div class="prose prose-xl prose-invert text-white text-balance">
+						
+						<h1 class="text-5xl lg:text-8xl mb-6 text-white font-bold">
+							Vítá Vás zverimex 4Tlapky!
+						</h1>
+						
+						<p class="text-white text-xl lg:text-2xl">
+							Jsme obchod s chovatelskými potřebami pro psy, kočky, hlodavce, ptáky i terarijní zvířata. Najdete u nás široký výběr krmiv, pamlsků, hraček a vybavení, které zpříjemní život vašim mazlíčkům a zároveň vám usnadní každodenní péči.
+						</p>
+
+						<div class="not-prose mt-10">
+							{ /* Tlačítko se zachováním původního stylu "white" */ }
+							<Button url="/nase-vyrobky" color="white"> 
+								Naše výrobky! 
+							</Button>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</Container>
+	</Section>
+</Layout>

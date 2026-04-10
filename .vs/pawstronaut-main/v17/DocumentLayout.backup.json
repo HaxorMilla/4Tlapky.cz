@@ -1,0 +1,351 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\data\\config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data\\config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\Address.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Address.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\nase-vyrobky.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\nase-vyrobky.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\privacy-policy.mdx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\privacy-policy.mdx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\index.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\index.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\contact.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\contact.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\about-us.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\about-us.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\TableHours.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\TableHours.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\Header.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Header.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\LogoContainer.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\LogoContainer.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\SocialMediaIcons.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\SocialMediaIcons.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\blog\\[...slug].astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\blog\\[...slug].astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\blog\\index.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\blog\\index.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\data\\menus.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data\\menus.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\Footer.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Footer.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\layouts\\Layout.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\layouts\\Layout.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\Map.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Map.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\data\\names.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data\\names.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\data\\members.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data\\members.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Address.astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\Address.astro",
+              "RelativeDocumentMoniker": "src\\components\\Address.astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\Address.astro",
+              "RelativeToolTip": "src\\components\\Address.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T12:57:01.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LogoContainer.astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\LogoContainer.astro",
+              "RelativeDocumentMoniker": "src\\components\\LogoContainer.astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\LogoContainer.astro",
+              "RelativeToolTip": "src\\components\\LogoContainer.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T12:17:20.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SocialMediaIcons.astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\SocialMediaIcons.astro",
+              "RelativeDocumentMoniker": "src\\components\\SocialMediaIcons.astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\SocialMediaIcons.astro",
+              "RelativeToolTip": "src\\components\\SocialMediaIcons.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T12:15:31.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "nase-vyrobky.astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\nase-vyrobky.astro",
+              "RelativeDocumentMoniker": "src\\pages\\nase-vyrobky.astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\nase-vyrobky.astro",
+              "RelativeToolTip": "src\\pages\\nase-vyrobky.astro",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T12:01:50.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "[...slug].astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\blog\\[...slug].astro",
+              "RelativeDocumentMoniker": "src\\pages\\blog\\[...slug].astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\blog\\[...slug].astro",
+              "RelativeToolTip": "src\\pages\\blog\\[...slug].astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T11:58:24.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Header.astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\Header.astro",
+              "RelativeDocumentMoniker": "src\\components\\Header.astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\Header.astro",
+              "RelativeToolTip": "src\\components\\Header.astro",
+              "ViewState": "AgIAABsAAAAAAAAAAAApwDQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T11:54:07.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "about-us.astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\about-us.astro",
+              "RelativeDocumentMoniker": "src\\pages\\about-us.astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\about-us.astro",
+              "RelativeToolTip": "src\\pages\\about-us.astro",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T11:48:44.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "index.astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\blog\\index.astro",
+              "RelativeDocumentMoniker": "src\\pages\\blog\\index.astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\blog\\index.astro",
+              "RelativeToolTip": "src\\pages\\blog\\index.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T11:39:28.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Footer.astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\Footer.astro",
+              "RelativeDocumentMoniker": "src\\components\\Footer.astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\Footer.astro",
+              "RelativeToolTip": "src\\components\\Footer.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T11:29:12.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Map.astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\Map.astro",
+              "RelativeDocumentMoniker": "src\\components\\Map.astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\Map.astro",
+              "RelativeToolTip": "src\\components\\Map.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T11:00:23.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "config.ts",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\data\\config.ts",
+              "RelativeDocumentMoniker": "src\\data\\config.ts",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\data\\config.ts",
+              "RelativeToolTip": "src\\data\\config.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-04-09T10:49:04.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TableHours.astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\TableHours.astro",
+              "RelativeDocumentMoniker": "src\\components\\TableHours.astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\components\\TableHours.astro",
+              "RelativeToolTip": "src\\components\\TableHours.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T10:48:04.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "names.json",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\data\\names.json",
+              "RelativeDocumentMoniker": "src\\data\\names.json",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\data\\names.json",
+              "RelativeToolTip": "src\\data\\names.json",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-09T10:17:12.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "members.json",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\data\\members.json",
+              "RelativeDocumentMoniker": "src\\data\\members.json",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\data\\members.json",
+              "RelativeToolTip": "src\\data\\members.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-09T10:17:05.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Layout.astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\layouts\\Layout.astro",
+              "RelativeDocumentMoniker": "src\\layouts\\Layout.astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\layouts\\Layout.astro",
+              "RelativeToolTip": "src\\layouts\\Layout.astro",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T10:16:48.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "contact.astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\contact.astro",
+              "RelativeDocumentMoniker": "src\\pages\\contact.astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\contact.astro",
+              "RelativeToolTip": "src\\pages\\contact.astro",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T10:16:33.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "privacy-policy.mdx",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\privacy-policy.mdx",
+              "RelativeDocumentMoniker": "src\\pages\\privacy-policy.mdx",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\privacy-policy.mdx",
+              "RelativeToolTip": "src\\pages\\privacy-policy.mdx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T10:16:26.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.astro",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\index.astro",
+              "RelativeDocumentMoniker": "src\\pages\\index.astro",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\pages\\index.astro",
+              "RelativeToolTip": "src\\pages\\index.astro",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-09T10:12:53.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "menus.js",
+              "DocumentMoniker": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\data\\menus.js",
+              "RelativeDocumentMoniker": "src\\data\\menus.js",
+              "ToolTip": "C:\\Users\\Ivoch\\Desktop\\pawstronaut-main\\src\\data\\menus.js",
+              "RelativeToolTip": "src\\data\\menus.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-09T09:58:24.729Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

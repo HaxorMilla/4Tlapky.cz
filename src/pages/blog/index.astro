@@ -1,0 +1,74 @@
+﻿---
+import Layout from "~/layouts/Layout.astro";
+import Section from "~/components/Section.astro";
+import Container from "~/components/Container.astro";
+import TableHours from "~/components/TableHours.astro";
+---
+
+<Layout title="Vítá Vás zverimex 4 tlapky!">
+	{/* HERO SEKCE */}
+	<Section class="min-h-[70vh] flex items-center justify-center">
+		<Container>
+			<div class="text-center max-w-3xl mx-auto py-20">
+				<h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+					Vítá Vás zverimex <span class="text-fuchsia-600 italic">4 Tlapky!</span>
+				</h1>
+				
+				<p class="text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed">
+					Jsme obchod plný radosti pro vaše mazlíčky. Nabízíme kvalitní krmiva, doplňky a vše, co vaše tlapky potřebují pro spokojený život. Přijďte se přesvědčit k nám do Lipníka!
+				</p>
+
+				<div class="flex justify-center">
+					<a 
+						href="/cats" 
+						class="bg-fuchsia-600 hover:bg-fuchsia-700 text-white font-bold py-4 px-10 rounded-full text-xl shadow-lg transition-transform hover:scale-105"
+					>
+						Prohlédnout nabídku
+					</a>
+				</div>
+			</div>
+		</Container>
+	</Section>
+
+	{/* NOVÁ SEKCE: OTEVÍRACÍ DOBA */}
+	<Section class="bg-gray-50/50 border-t border-gray-100 pb-20">
+		<Container>
+			<div class="max-w-4xl mx-auto text-center mb-12">
+				<h2 class="text-3xl md:text-4xl font-bold mb-4 text-teal-600 tracking-tight">Zastavte se u nás 🐾</h2>
+				<p class="text-lg text-gray-600 italic">Najdete nás v centru Lipníka, těšíme se na každou tlapku!</p>
+			</div>
+
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch bg-white p-8 md:p-12 rounded-[3rem] shadow-xl border border-gray-100">
+				{/* LEVÁ STRANA: Adresa */}
+				<div class="flex flex-col justify-center space-y-6 text-center md:text-left">
+					<div class="inline-flex items-center justify-center md:justify-start gap-3">
+						<span class="bg-fuchsia-100 p-3 rounded-2xl text-fuchsia-600">
+							<svg xmlns="http://www.w3.org/2000/svg" class="size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+							</svg>
+						</span>
+						<h3 class="text-2xl font-bold text-gray-800">Kde nás najdete?</h3>
+					</div>
+					<p class="text-xl text-gray-600 leading-relaxed pl-2 border-l-4 border-fuchsia-500 md:ml-2">
+						nám. T. G. Masaryka 92/5<br />
+						751 31 Lipník nad Bečvou
+					</p>
+					<div class="pt-4">
+						<a href="/contact" class="text-fuchsia-600 font-bold hover:underline flex items-center gap-2 justify-center md:justify-start">
+							Jak se k nám dostanete? <span class="text-2xl">&rarr;</span>
+						</a>
+					</div>
+				</div>
+
+				{/* PRAVÁ STRANA: Otevíračka */}
+				<div class="bg-gradient-to-br from-gray-50 to-white p-6 md:p-8 rounded-[2rem] border border-gray-100 shadow-inner">
+					<h3 class="text-xl font-bold mb-6 flex items-center gap-2 justify-center md:justify-start text-gray-700">
+						<span class="text-2xl">🕒</span> Naše otevírací doba
+					</h3>
+					<TableHours />
+				</div>
+			</div>
+		</Container>
+	</Section>
+</Layout>

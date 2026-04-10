@@ -1,0 +1,67 @@
+﻿---
+import Layout from "~/layouts/Layout.astro";
+import Section from "~/components/Section.astro";
+import Container from "~/components/Container.astro";
+import Heading from "~/components/Heading.astro";
+// FormContact jsme odebrali z importů, protože ho nepoužijeme
+import Map from "~/components/Map.astro";
+import TableHours from "~/components/TableHours.astro";
+import Address from "~/components/Address.astro";
+---
+
+<Layout title="Kontakt | 4 TLAPKY">
+	<Section>
+		<Container>
+			{/* HORNÍ ČÁST: Kontakty a Otevíračka ve dvou sloupcích */}
+			<div class="grid grid-cols-1 gap-8 lg:gap-16 xl:gap-24 lg:grid-cols-2 mb-16">
+				{/* LEVÁ STRANA: Info o prodejně */}
+				<div>
+					<Heading>
+						<h2 slot="heading-title" class="h2">Kontaktujte nás</h2>
+						<div slot="heading-content">
+							<p class="text-xl mb-6">Máte dotaz ohledně krmiva nebo doplňků? Rádi vám poradíme osobně u nás v obchůdku!</p>
+							
+							<div class="space-y-3">
+								<p class="font-bold text-lg italic border-l-4 border-fuchsia-500 pl-3">Rychlý kontakt:</p>
+								<p class="font-bold text-lg">☎️ Telefon: <a href="tel:+420777775202" class="text-fuchsia-600 hover:underline">777 775 202</a></p>
+								<p class="font-bold text-lg">📧 E-mail: <a href="mailto:4tlapkysro@email.cz" class="text-fuchsia-600 hover:underline">4tlapkysro@email.cz</a></p>
+								
+								<hr class="my-6 border-gray-200" />
+								
+								<p class="font-bold text-lg italic border-l-4 border-blue-500 pl-3">Sledujte nás:</p>
+								<p class="font-bold text-lg">
+									Facebook: <a href="https://www.facebook.com/profile.php?id=61556337299771&locale=cs_CZ" target="_blank" class="text-[#1877F2] hover:underline">4 Tlapky🐾</a>
+								</p>
+								<p class="font-bold text-lg">
+									Instagram: <a href="https://www.instagram.com/chovatelky4tlapky" target="_blank" class="text-[#E4405F] hover:underline">4 Tlapky🐾</a>
+								</p>
+							</div>
+						</div>
+					</Heading>
+				</div>
+
+				{/* PRAVÁ STRANA: Adresa a otevíračka */}
+				<div>
+					<Heading>
+						<h2 slot="heading-title" class="h2">Kde nás najdete</h2>
+						<div slot="heading-content">
+							<Address />
+							<div class="mt-8 bg-gray-50 p-6 rounded-xl border border-gray-100">
+								<h3 class="font-bold mb-4 text-xl border-b pb-2 text-gray-800">Otevírací doba:</h3>
+								<TableHours />
+							</div>
+						</div>
+					</Heading>
+				</div>
+			</div>
+
+			{/* DOLNÍ ČÁST: Mapa vycentrovaná přes celou šířku */}
+			<div class="w-full max-w-6xl mx-auto">
+				<div class="rounded-xl overflow-hidden shadow-lg border-4 border-white">
+					<Map />
+				</div>
+			</div>
+
+		</Container>
+	</Section>
+</Layout>

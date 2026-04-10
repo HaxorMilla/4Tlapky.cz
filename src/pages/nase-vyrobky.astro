@@ -1,0 +1,89 @@
+﻿---
+import Layout from "~/layouts/Layout.astro";
+import Section from "~/components/Section.astro";
+import Container from "~/components/Container.astro";
+import Heading from "~/components/Heading.astro";
+
+// 1. KROK: IMPORTUJEME TVOJE OBRÁZKY (máš je v src/assets/images/)
+import Vlastni1 from "~/assets/images/Vlastni1.webp";
+import Vlastni2 from "~/assets/images/Vlastni2.webp";
+import Vlastni3 from "~/assets/images/Vlastni3.jpg";
+import Vlastni4 from "~/assets/images/Vlastni4.jpg";
+
+// IMPORTUJEME CHYTROU KOMPONENTU PRO OBRÁZKY (Astro:assets)
+import { Image } from "astro:assets";
+
+// 2. KROK: PŘIŘADÍME IMPORTY K PRODUKTŮM (bez uvozovek)
+const produkty = [
+	{
+		jmeno: "Granule Brit Care",
+		popis: "Prémiové krmivo pro vašeho psa.",
+		cena: "449 Kč",
+		foto: Vlastni1 // Použijeme importovaný Vlastni1
+	},
+	{
+		jmeno: "Granule Taste of the Wild",
+		popis: "Kvalitní krmivo pro psy.",
+		cena: "549 Kč",
+		foto: Vlastni2
+	},
+	{
+		jmeno: "Fitmin Purity",
+		popis: "Kvalitní krmivo pro psy.",
+		cena: "590 Kč",
+		foto: Vlastni3
+	},
+	{
+		jmeno: "Pedigree",
+		popis: "Kvalitní krmivo pro psy.",
+		cena: "449 Kč",
+		foto: Vlastni4
+	}
+];
+---
+
+<Layout title="Výrobky od 4Tlapky | 4 TLAPKY" pageTitle="Nase výrobky">
+	<Section>
+		<Container>
+			<Heading>
+				<h1 slot="heading-title" class="h2">Výrobky od 4Tlapek</h1>
+				<div slot="heading-content">
+					<p class="text-xl">
+						Vyberte si z naší nabídky kvalitních potřeb pro vaše mazlíčky. 
+						Všechny produkty jsou k dostání u nás v prodejně.
+					</p>
+				</div>
+			</Heading>
+
+			{/* MŘÍŽKA S PRODUKTY */}
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-12">
+				{produkty.map((produkt) => (
+					<div class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 flex flex-col transition-transform hover:scale-[1.02]">
+						
+						{/* OBRÁZEK PRODUKTU - 3. KROK: POUŽIJEME KOMPONENTU <IMAGE> */}
+						<div class="aspect-square overflow-hidden bg-white p-4">
+							<Image 
+								src={produkt.foto} 
+								alt={produkt.jmeno} 
+								class="w-full h-full object-contain"
+								width={400} // Astro automaticky zmenší na tuhle šířku
+								height={400} // Astro automaticky zmenší na tuhle výšku
+							/>
+						</div>
+						
+						{/* INFO O PRODUKTU */}
+						<div class="p-6 flex flex-col flex-grow bg-gray-50/50">
+							<h3 class="font-bold text-xl mb-2 text-gray-900">{produkt.jmeno}</h3>
+							<p class="text-gray-600 text-sm mb-4 flex-grow italic">
+								{produkt.popis}
+							</p>
+							<div class="flex items-center justify-between mt-auto pt-4 border-t border-gray-100">
+								<span class="text-2xl font-bold text-fuchsia-600">{produkt.cena}</span>
+							</div>
+						</div>
+					</div>
+				))}
+			</div>
+		</Container>
+	</Section>
+</Layout>

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\components",
+    "\\src\\components\\forms",
+    "\\src\\content",
+    "\\src\\content\\blog",
+    "\\src\\data",
+    "\\src\\layouts",
+    "\\src\\pages"
+  ],
+  "SelectedNode": "\\src\\components\\Footer.astro",
+  "PreviewInSolutionExplorer": false
+}

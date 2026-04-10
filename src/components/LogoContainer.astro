@@ -1,0 +1,23 @@
+---
+import { Image } from "astro:assets";
+// Importujeme tvé nové logo
+import LogoImg from "~/assets/images/4T.webp";
+import { siteSlogan } from "~/data/config.js";
+---
+
+<div class="flex items-center gap-2 lg:gap-6">
+	{/* TVÉ NOVÉ LOGO - zachovaná velikost h-8 až h-1 */}
+	<Image 
+		src={LogoImg} 
+		alt="Logo 4Tlapky" 
+		class="w-auto h-8 lg:h-25 object-contain"
+	/>
+
+	<div>
+		{/* ZACHOVANÝ FONT A STYL - jen zmìnìný text */}
+		<h1 class="text-xl lg:text-4xl font-semibold text-gray-900">
+			4<span class="text-fuchsia-600">Tlapky</span>
+		</h1>
+		<p class="max-lg:hidden text-sm text-center italic">{siteSlogan}</p>
+	</div>
+</div>
