@@ -18,7 +18,8 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 			<div class="container">
 				<div class="container max-lg:px-4 max-w-none bg-white shadow rounded-xl py-4 lg:py-6">
 					<nav class="flex relative items-center justify-between" aria-label="Global">
-						<a href="/" class="relative z-10">
+						{/* PŘIDÁNO: data-astro-reload pro logo */}
+						<a href="/" class="relative z-10" data-astro-reload>
 							<LogoContainer />
 						</a>
 						<div class="flex lg:hidden">
@@ -50,6 +51,8 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 									menuMain.map((item) => (
 										<a
 											href={item.url}
+											/* PŘIDÁNO: data-astro-reload pro desktop menu */
+											data-astro-reload
 											class={`transition text-xl font-bold hover:text-fuchsia-500 ${pathname === item.url ? "menu-item-active" : ""}`}
 										>
 											{item.name}
@@ -102,6 +105,8 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 									<a
 										x-on:click="open = false"
 										href={item.url}
+										/* PŘIDÁNO: data-astro-reload pro mobilní menu */
+										data-astro-reload
 										class={`block py-2 text-center font-semibold text-3xl ${pathname === item.url ? "menu-item-active" : ""}`}
 									>
 										{item.name}
