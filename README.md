@@ -104,3 +104,4 @@ Inside of your Pawstronaut project, you'll see the following folders and files:
 ## 👀 Stuck?
 
 If you have any questions or need help with Pawstronaut, feel free to reach out to me at info@wpinfusion.com, or open an issue on the [Pawstronaut GitHub repository](https://github.com/wpinfusion/pawstronaut)
+"# zverimex-4-tlapky" 
