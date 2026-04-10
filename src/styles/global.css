@@ -229,3 +229,21 @@ label {
 	font-weight: 400;
 	src: url("/fonts/caveat/caveat-brush-v11-latin-regular.woff2") format("woff2");
 }
+
+/* Oprava překrývání obsahu fixním headerem */
+main > section:first-of-type, 
+main > div:first-of-type {
+    padding-top: 100px !important; /* Základní odstup pro mobil */
+}
+
+@media (min-width: 1024px) {
+    main > section:first-of-type, 
+    main > div:first-of-type {
+        padding-top: 120px !important; /* Větší odstup pro počítač */
+    }
+}
+
+.prose h1, .prose h2 {
+    margin-top: 2rem !important;
+    line-height: 1.2;
+}
