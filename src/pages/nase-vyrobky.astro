@@ -1,84 +1,100 @@
-﻿---
+---
 import Layout from "~/layouts/Layout.astro";
 import Section from "~/components/Section.astro";
 import Container from "~/components/Container.astro";
 import Heading from "~/components/Heading.astro";
-
-// 1. KROK: IMPORTUJEME TVOJE OBRÁZKY (máš je v src/assets/images/)
-import Vlastni1 from "~/assets/images/Vlastni1.webp";
-import Vlastni2 from "~/assets/images/Vlastni2.webp";
-import Vlastni3 from "~/assets/images/Vlastni3.jpg";
-import Vlastni4 from "~/assets/images/Vlastni4.jpg";
-
-// IMPORTUJEME CHYTROU KOMPONENTU PRO OBRÁZKY (Astro:assets)
 import { Image } from "astro:assets";
 
-// 2. KROK: PŘIŘADÍME IMPORTY K PRODUKTŮM (bez uvozovek)
+// 1. IMPORTY OBRÁZKŮ
+import img1 from "~/assets/images/1.jpg";
+import img2 from "~/assets/images/2.jpg";
+import img3 from "~/assets/images/3.jpg";
+import img4 from "~/assets/images/4.jpg";
+import img5 from "~/assets/images/5.jpg";
+import img6 from "~/assets/images/6.jpg";
+import img7 from "~/assets/images/7.jpg";
+import img8 from "~/assets/images/8.jpg";
+import img9 from "~/assets/images/9.jpg";
+import img10 from "~/assets/images/10.jpg";
+import img11 from "~/assets/images/11.jpg";
+import img12 from "~/assets/images/12.jpg";
+import img13 from "~/assets/images/13.jpg";
+import img14 from "~/assets/images/14.jpg";
+
+// 2. DEFINICE PRODUKTŮ
 const produkty = [
-	{
-		jmeno: "Granule Brit Care",
-		popis: "Prémiové krmivo pro vašeho psa.",
-		cena: "449 Kč",
-		foto: Vlastni1 // Použijeme importovaný Vlastni1
-	},
-	{
-		jmeno: "Granule Taste of the Wild",
-		popis: "Kvalitní krmivo pro psy.",
-		cena: "549 Kč",
-		foto: Vlastni2
-	},
-	{
-		jmeno: "Fitmin Purity",
-		popis: "Kvalitní krmivo pro psy.",
-		cena: "590 Kč",
-		foto: Vlastni3
-	},
-	{
-		jmeno: "Pedigree",
-		popis: "Kvalitní krmivo pro psy.",
-		cena: "449 Kč",
-		foto: Vlastni4
-	}
+	{ jmeno: "TORNADO Jehně", popis: "", cena: "449 Kč", foto: img1 },
+	{ jmeno: "TORNADO Pstruh", popis: "", cena: "549 Kč", foto: img2 },
+	{ jmeno: "TORNADO Losos", popis: "", cena: "590 Kč", foto: img3 },
+	{ jmeno: "TORNADO Králík", popis: "", cena: "599 Kč", foto: img4 },
+	{ jmeno: "TORNADO Krocan", popis: "", cena: "610 Kč", foto: img5 },
+	{ jmeno: "TORNADO Krocan", popis: "", cena: "630 Kč", foto: img6 },
+	{ jmeno: "TORNADO Krocan", popis: "", cena: "640 Kč", foto: img7 },
+	{ jmeno: "TORNADO Jehně", popis: "", cena: "620 Kč", foto: img8 },
+	{ jmeno: "TORNADO Krocan", popis: "", cena: "580 Kč", foto: img9 },
+	{ jmeno: "TORNADO Jehně", popis: "", cena: "650 Kč", foto: img10 },
+	{ jmeno: "TORNADO Losos", popis: "", cena: "690 Kč", foto: img11 },
+	{ jmeno: "TORNADO Losos", popis: "", cena: "645 Kč", foto: img12 },
+	{ jmeno: "TORNADO Losos", popis: "", cena: "430 Kč", foto: img13 },
+	{ jmeno: "TORNADO Kuře", popis: "", cena: "480 Kč", foto: img14 },
 ];
 ---
 
-<Layout title="Výrobky od 4Tlapky | 4 TLAPKY" pageTitle="Nase výrobky">
+<Layout title="TORNADO – ŠPIČKOVÁ VÝŽIVA PRO KAŽDÉHO PSA | 4 TLAPKY" pageTitle="Naše výrobky">
 	<Section>
 		<Container>
 			<Heading>
-				<h1 slot="heading-title" class="h2">Výrobky od 4Tlapek</h1>
-				<div slot="heading-content">
-					<p class="text-xl">
-						Vyberte si z naší nabídky kvalitních potřeb pro vaše mazlíčky. 
+				<h1 slot="heading-title" class="h2 text-fuchsia-600 uppercase">🌪️TORNADO🌪️</h1>
+				<div slot="heading-content" class="mt-6">
+					<p class="text-2xl font-bold text-gray-800 mb-4 text-left">
+						Hledáte opravdu kvalitní granule pro svého psa?
+					</p>
+					<p class="text-lg text-gray-600 mb-6 text-left">
+						Představujeme <strong>TORNADO</strong> – superprémiové krmivo pro štěňata, dospělé i starší psy všech plemen. 
 						Všechny produkty jsou k dostání u nás v prodejně.
+					</p>
+
+					<div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-left max-w-4xl mx-auto bg-fuchsia-50 p-8 rounded-3xl border border-fuchsia-100">
+						<ul class="space-y-2 text-gray-700">
+							<li class="flex items-center gap-2">✅ <span class="font-bold">65 %</span> živočišných bílkovin</li>
+							<li class="flex items-center gap-2">✅ Bez obilovin <span class="italic">(grain-free)</span></li>
+							<li class="flex items-center gap-2">✅ Maso z volného chovu a rybářství</li>
+							<li class="flex items-center gap-2">✅ Technologie <span class="font-bold">Freshtrusion (82 °C)</span></li>
+						</ul>
+						<ul class="space-y-2 text-gray-700">
+							<li class="flex items-center gap-2">🦴 Obohaceno o <span class="font-bold">Superfoods</span> směs</li>
+							<li class="flex items-center gap-2">🌿 Antioxidanty a Omega 3</li>
+							<li class="flex items-center gap-2">🍎 Vitamíny (A, B3, B9, C, K)</li>
+							<li class="flex items-center gap-2">💪 Minerály (železo, vápník, draslík)</li>
+						</ul>
+					</div>
+
+					<p class="mt-8 text-xl font-bold text-teal-600 italic text-left">
+						Dopřej svému psovi výživu, kterou si zaslouží!
 					</p>
 				</div>
 			</Heading>
 
-			{/* MŘÍŽKA S PRODUKTY */}
-			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-12">
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-16">
 				{produkty.map((produkt) => (
-					<div class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 flex flex-col transition-transform hover:scale-[1.02]">
+					<div class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 flex flex-col transition-all hover:shadow-xl hover:-translate-y-1">
 						
-						{/* OBRÁZEK PRODUKTU - 3. KROK: POUŽIJEME KOMPONENTU <IMAGE> */}
-						<div class="aspect-square overflow-hidden bg-white p-4">
+						<div class="aspect-[3/4] overflow-hidden bg-[#0c0c0c]">
 							<Image 
 								src={produkt.foto} 
 								alt={produkt.jmeno} 
-								class="w-full h-full object-contain"
-								width={400} // Astro automaticky zmenší na tuhle šířku
-								height={400} // Astro automaticky zmenší na tuhle výšku
+								class="w-full h-full object-contain" 
+								width={600}
+								height={800}
 							/>
 						</div>
 						
-						{/* INFO O PRODUKTU */}
-						<div class="p-6 flex flex-col flex-grow bg-gray-50/50">
-							<h3 class="font-bold text-xl mb-2 text-gray-900">{produkt.jmeno}</h3>
-							<p class="text-gray-600 text-sm mb-4 flex-grow italic">
-								{produkt.popis}
-							</p>
-							<div class="flex items-center justify-between mt-auto pt-4 border-t border-gray-100">
-								<span class="text-2xl font-bold text-fuchsia-600">{produkt.cena}</span>
+						<div class="p-6 flex flex-col flex-grow bg-white text-center"> {/* Změněno na text-center */}
+							<h3 class="font-bold text-xl mb-1 text-gray-900">{produkt.jmeno}</h3>
+							{produkt.popis && <p class="text-gray-500 text-sm mb-4 italic leading-relaxed">{produkt.popis}</p>}
+							
+							<div class="flex items-center justify-center mt-auto pt-4 border-t border-gray-50"> {/* justify-center pro vycentrování */}
+								<span class="text-3xl font-extrabold text-fuchsia-600">{produkt.cena}</span> {/* Zvětšeno na text-3xl a font-extrabold */}
 							</div>
 						</div>
 					</div>
