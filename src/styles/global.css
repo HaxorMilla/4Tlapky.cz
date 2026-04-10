@@ -123,7 +123,7 @@ body {
 	@apply h-full scroll-smooth font-sans text-gray-700;
 	background-image: url("/pattern.jpg");
 	background-repeat: repeat;
-	background-color: rgba(0, 0, 0, 0.1); /* Jemný tmavý nádech pod obrázkem */
+	background-color: rgba(0, 0, 0, 0.3); /* Jemný tmavý nádech pod obrázkem */
 	background-blend-mode: multiply;       /* Tohle ty kočky "vytáhne" a ztmaví */
 }
 
