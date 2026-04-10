@@ -121,7 +121,8 @@ body {
 
 body {
 	@apply h-full scroll-smooth font-sans text-gray-700;
-	background-image: url("/pattern.jpg");
+	/* Tato úprava zesílí kočičky. Čím menší číslo místo 0.8, tím budou vidět víc! */
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/pattern.jpg");
 	background-repeat: repeat;
 }
 
