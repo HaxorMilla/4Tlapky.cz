@@ -1,4 +1,4 @@
-﻿---
+---
 import { siteName } from "~/data/config";
 import SocialMediaIcons from "./SocialMediaIcons.astro";
 import TableHours from "./TableHours.astro";
@@ -6,11 +6,11 @@ const currentYear = new Date().getFullYear();
 ---
 
 <footer class="container mx-auto px-4 pb-12 mt-20">
-    {/* 1. HORNÍ ČÁST: Otevíračka - Ponechána tvoje oblíbená verze */}
+    {/* 1. HORNÍ ČÁST: Otevíračka */}
     <div class="max-w-md mx-auto -mb-10 relative z-20 px-4">
         <div class="bg-white shadow-2xl rounded-[2rem] p-6 border border-gray-100">
             <h3 class="text-center text-lg font-bold mb-4 text-gray-800 flex items-center justify-center gap-2">
-                <span class="text-fuchsia-500 text-xl"></span> 
+                <span class="text-fuchsia-500 text-xl">🕒</span> 
                 Otevírací doba
             </h3>
             
@@ -20,17 +20,14 @@ const currentYear = new Date().getFullYear();
         </div>
     </div>
 
-    {/* 2. SPODNÍ ČÁST: Barevný obdélník - Zúžený (pt-16 pb-6) */}
+    {/* 2. SPODNÍ ČÁST: Barevný obdélník */}
     <div class="bg-gradient-to-r from-fuchsia-600 to-teal-600 text-white rounded-[2.5rem] shadow-xl pt-16 pb-6 px-8 md:px-14 overflow-hidden relative">
         
-        {/* Dekorativní tlapka */}
         <div class="absolute -bottom-6 -left-6 opacity-10 rotate-12 pointer-events-none text-white">
             <svg xmlns="http://www.w3.org/2000/svg" class="size-32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm7 4c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zM5 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm7 4c1.66 0 3 1.34 3 3v2.5c0 1.38-1.12 2.5-2.5 2.5h-1c-1.38 0-2.5-1.12-2.5-2.5V13c0-1.66 1.34-3 3-3zm5 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zM7 12c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z"/></svg>
         </div>
 
         <div class="flex flex-col md:flex-row items-center justify-between gap-6 relative z-10">
-            
-            {/* Adresa a Název - Kompaktnější rozestupy */}
             <div class="text-center md:text-left">
                 <p class="font-bold text-4xl italic mb-1 tracking-tighter leading-none drop-shadow-md">
                     {siteName}
@@ -50,26 +47,25 @@ const currentYear = new Date().getFullYear();
                 </div>
             </div>
 
-            {/* Ikony v bublinách - Trochu menší pro úsporu místa */}
             <div class="flex gap-x-5 [&_a]:bg-white/10 [&_a]:p-3.5 [&_a]:rounded-2xl [&_a]:transition-all hover:[&_a]:bg-white/20 hover:[&_a]:-translate-y-1 [&_svg]:text-white [&_svg]:size-7">
                 <SocialMediaIcons />
             </div>
         </div>
 
-        {/* Spodní linka - Menší horní margin (mt-8) */}
         <div class="mt-8 pt-4 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-2 relative z-10">
             <p class="text-[9px] uppercase tracking-[0.3em] opacity-50">
                 &copy; {currentYear} {siteName} • Všechna práva vyhrazena
             </p>
             <p class="text-[10px] uppercase tracking-widest opacity-50 flex items-center gap-1 italic">
-                Pro spokojené tlapky vytvořil: <a href="https://www.jan-muller.cz/" class="text-fuchsia-600 hover:underline">Jan Müller</a></p>
+                Pro spokojené tlapky vytvořil: 
+                <a href="https://www.jan-muller.cz/" class="text-white hover:text-fuchsia-200 underline decoration-fuchsia-500/30 transition-colors ml-1">Jan Müller</a>
             </p>
         </div>
     </div>
 </footer>
 
-<style is:global>
-    /* Tvoje oblíbené stylování otevíračky */
+<style>
+    /* Styly jsou nyní lokální (scoped) - bezpečnější pro přechody stránek */
     .hours-wrapper table {
         width: 100%;
         border-collapse: collapse;
