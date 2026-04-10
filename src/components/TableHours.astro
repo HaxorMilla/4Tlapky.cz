@@ -2,15 +2,22 @@
 import { hours } from "../data/config.js";
 ---
 
-<table class="border-collapse border-0 max-w-xs text-base">
-	<tbody>
-		{
-			Object.entries(hours).map(([day, time]) => (
-				<tr class="border-0">
-					<td class="border-0 p-0">{day.charAt(0).toUpperCase() + day.slice(1)}</td>
-					<td class="border-0 p-0">{time}</td>
-				</tr>
-			))
-		}
-	</tbody>
-</table>
+<div class="max-w-md w-full">
+  <ul class="space-y-3">
+    {
+      Object.entries(hours).map(([day, time]) => (
+        <li class="flex flex-col sm:flex-row sm:justify-between sm:items-center border-b border-gray-100 pb-2 gap-1 sm:gap-4">
+          <div class="flex items-center gap-2">
+            <span class="text-gray-400">📅</span>
+            <span class="font-bold text-gray-800">
+              {day.charAt(0).toUpperCase() + day.slice(1)}:
+            </span>
+          </div>
+          <span class="text-gray-600 font-medium sm:text-right pl-8 sm:pl-0">
+            {time}
+          </span>
+        </li>
+      ))
+    }
+  </ul>
+</div>
