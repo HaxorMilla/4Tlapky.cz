@@ -123,10 +123,6 @@ body {
 	@apply h-full scroll-smooth font-sans text-gray-700;
 	background-image: url("/pattern.jpg");
 	background-repeat: repeat;
-	/* Tento filtr zvýší kontrast jen u pozadí */
-	background-color: white;
-	background-blend-mode: alternate;
-	filter: contrast(1.1) brightness(0.95);
 }
 
 h1,
